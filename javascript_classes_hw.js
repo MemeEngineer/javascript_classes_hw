@@ -62,3 +62,40 @@ for(let i=0; i <= strawhat.length; i++){
     console.log(strawhat[i])
     console.log(carribean[i])
 }
+
+
+// class Pirate {
+//     constructor(name, age, weakness) {
+//         this.name = name;
+//         this.age = age;
+//         this.weakness = weakness;
+//     }
+
+//     pirateDetails() {
+//         return `PIRATE INFO: Name: ${this.name} Age: ${this.age}`;
+//     }
+// }
+
+// const jack = new Pirate('Jack', 38, 'water');
+// const john = new Pirate('John', 28, 'Mosquitos');
+// const jane = new Pirate('Jane', 30, 'Salt Water');
+
+// // const blackPearl = [jack, john, jane];
+
+// const blackPearl = [];
+
+// blackPearl.push(jack, john, jane);
+
+// console.log(blackPearl);
+
+// for (const pirate of blackPearl) {
+//     console.log(pirate);
+    
+//     for ( const [key, value] of Object.entries(pirate) ){
+//         console.log(key, value);
+//     }
+
+//     // console.log(pirate.name);
+//     // console.log(pirate.age);
+//     // console.log(pirate.weakness);
+// }
